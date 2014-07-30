@@ -1,10 +1,11 @@
 {
   "name": "node-winjs",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Run WinJS Promises in a node module! yay!",
-  "main": "main.js",
+  "main": "./lib/main",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
