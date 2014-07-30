@@ -1,0 +1,24 @@
+{
+  "name": "node-winjs",
+  "version": "0.0.0",
+  "description": "Run WinJS Promises in a node module! yay!",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxerbubba/node-winjs.git"
+  },
+  "keywords": [
+    "winjs",
+    "node",
+    "promises"
+  ],
+  "author": "Max Reeder",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maxerbubba/node-winjs/issues"
+  },
+  "homepage": "https://github.com/maxerbubba/node-winjs"
+}
