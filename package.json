@@ -1,6 +1,6 @@
 {
   "name": "node-winjs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Run WinJS Promises in a node module! yay!",
   "main": "./lib/node-winjs.js",
   "scripts": {
