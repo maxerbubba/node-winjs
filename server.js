@@ -1,4 +1,4 @@
-var winjs = require("node-winjs");
+var winjs = require("./lib/main.js");
 
 console.log("WinJS loaded.");
 console.log(JSON.stringify(winjs));
@@ -8,3 +8,5 @@ console.log(JSON.stringify(p));
 
 console.log();
 console.log("done.");
+
+setTimeout(function () { console.log("bye"); }, 10000);
