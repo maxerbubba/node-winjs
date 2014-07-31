@@ -1,12 +1,14 @@
 var winjs = require("./lib/main.js");
-
 console.log("WinJS loaded.");
-console.log(JSON.stringify(winjs));
 
-var p = new winjs.Promise(2);
-console.log(JSON.stringify(p));
+winjs.Promise.timeout(1000).then(function () {
+    console.log("one second later!");
+    return winjs.Promise.timeout(1000);
+}).then(function () {
+    console.log("two second later!");
+    return winjs.Promise.timeout(1000);
+}).then(function () {
+    console.log("three second later!");
+    return winjs.Promise.timeout(1000);
+});
 
-console.log();
-console.log("done.");
-
-setTimeout(function () { console.log("bye"); }, 10000);
