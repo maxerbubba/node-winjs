@@ -5,12 +5,10 @@ WinJS Promises inside of a node_module
 
 To Run:
 ==========
-  1. mkdir node-winjs
-  2. cd node-winjs
-  3. git clone https://github.com/maxerbubba/node-winjs.git .
-  4. npm pack
-  5. npm install node-winjs-0.0.1.tgz
-  6. node server.js
+  1. echo var winjs = require("node-winjs"); winjs.Promise.timeout(1000); > server.js
+    1. cat on *nix
+  2. npm install node-winjs
+  3. node server.js
     
 Have fun!
 
