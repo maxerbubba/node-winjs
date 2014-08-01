@@ -1,4 +1,4 @@
-var winjs = require("./lib/main.js");
+var winjs = require("node-winjs");
 console.log("WinJS loaded.");
 
 winjs.Promise.timeout(1000).then(function () {
